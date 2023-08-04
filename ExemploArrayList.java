@@ -59,8 +59,8 @@ public class ExemploArrayList {
 		// mostrando os "n" contatos da agenda (usando for-each)
 		System.out.printf("\nPercorrendo o ArrayList (usando for-each)\n");
 		i = 0;
-		for (String contato : listaMercado) {
-			System.out.printf("Posição %d- %s\n", i, contato);
+		for (String itens : listaMercado) {
+			System.out.printf("Posição %d- %s\n", i, itens);
 			i++;
 		}
 		
